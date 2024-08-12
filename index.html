@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      .col {
+        flex: initial;
+      }
+      .hidden {
+        display: none;
+      }
+
+      .col:hover .hidden {
+        display: block;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body style="display: flex; justify-content: space-between; color: white">
+    <div
+      class="cont"
+      style="
+        width: 70%;
+        margin: auto;
+        background-color: rgb(148, 148, 241);
+        padding: 20px;
+      "
+    >
+      <h4 class="greet">Good Afternoon</h4>
+      <hr />
+      <div class="row" style="--bs-gutter-x: 0px">
+        <div
+          class="col col-sm-12 col-md-12 col-lg-4 d-flex"
+          style="
+            background-color: rgba(139, 133, 133, 0.5);
+            margin-top: 2px;
+            align-items: center;
+            height: 60px;
+            justify-content: space-between;
+          "
+        >
+          <div class="d-flex h-100">
+            <img
+              src="images/heart.jpg"
+              alt=""
+              style="width: 40px; height: 100%"
+            />
+            <h6 class="ms-2 mt-3">Liked Songs</h6>
+          </div>
+          <img
+            src="images/play.png"
+            alt=""
+            style="width: 50px; height: 50px"
+            class="hidden"
+          />
+        </div>
+        <div
+          class="col col-sm-12 col-md-12 col-lg-4 d-flex"
+          style="
+            background-color: rgba(139, 133, 133, 0.5);
+            margin-top: 2px;
+            align-items: center;
+            height: 60px;
+            justify-content: space-between;
+          "
+        >
+          <div class="d-flex h-100">
+            <img
+              src="images/music.jpg"
+              alt=""
+              style="width: 40px; height: 100%"
+            />
+            <h6 class="ms-2 mt-3">Trending Gospel Songs 2024</h6>
+          </div>
+          <img
+            src="images/play.png"
+            alt=""
+            style="width: 50px; height: 50px"
+            class="hidden"
+          />
+        </div>
+        <div
+          class="col col-sm-12 col-md-12 col-lg-4 d-flex"
+          style="
+            background-color: rgba(139, 133, 133, 0.5);
+            margin-top: 2px;
+            align-items: center;
+            height: 60px;
+            justify-content: space-between;
+          "
+        >
+          <div class="d-flex h-100">
+            <img
+              src="images/music.jpg"
+              alt=""
+              style="width: 40px; height: 100%"
+            />
+            <h6 class="ms-2 mt-3">Solemn Christian music</h6>
+          </div>
+          <img
+            src="images/play.png"
+            alt=""
+            style="width: 50px; height: 50px"
+            class="hidden"
+          />
+        </div>
+      </div>
+      <div class="row mt-2" style="--bs-gutter-x: 0px">
+        <div
+          class="col col-sm-12 col-md-12 col-lg-4 d-flex"
+          style="
+            background-color: rgba(139, 133, 133, 0.5);
+            margin-top: 2px;
+            align-items: center;
+            height: 60px;
+            justify-content: space-between;
+          "
+        >
+          <div class="d-flex h-100">
+            <img
+              src="images/music.jpg"
+              alt=""
+              style="width: 40px; height: 100%"
+            />
+            <h6 class="ms-2 mt-3">Gyara ni ya Yesu</h6>
+          </div>
+          <img
+            src="images/play.png"
+            alt=""
+            style="width: 50px; height: 50px"
+            class="hidden"
+          />
+        </div>
+        <div
+          class="col col-sm-12 col-md-12 col-lg-4 d-flex"
+          style="
+            background-color: rgba(139, 133, 133, 0.5);
+            margin-top: 2px;
+            align-items: center;
+            height: 60px;
+            justify-content: space-between;
+          "
+        >
+          <div class="d-flex h-100">
+            <img
+              src="images/music.jpg"
+              alt=""
+              style="width: 40px; height: 100%"
+            />
+            <h6 class="ms-2 mt-3">Your Episodes</h6>
+          </div>
+          <img
+            src="images/play.png"
+            alt=""
+            style="width: 50px; height: 50px"
+            class="hidden"
+          />
+        </div>
+        <div
+          class="col col-sm-12 col-md-12 col-lg-4 d-flex"
+          style="
+            background-color: rgba(139, 133, 133, 0.5);
+            margin-top: 2px;
+            align-items: center;
+            height: 60px;
+            justify-content: space-between;
+          "
+        >
+          <div class="d-flex h-100">
+            <img
+              src="images/music.jpg"
+              alt=""
+              style="width: 40px; height: 100%"
+            />
+            <h6 class="ms-2 mt-3">Broken(Live)</h6>
+          </div>
+          <img
+            src="images/play.png"
+            alt=""
+            style="width: 50px; height: 50px"
+            class="hidden"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
